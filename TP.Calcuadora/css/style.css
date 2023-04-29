@@ -1,0 +1,65 @@
+.fin {
+    justify-content: center;
+    display: grid;
+
+    height: 600px;
+    width: 500px;
+    background-color: #333;
+    flex-wrap:wrap ;
+    margin-top: 5%;
+    margin-left: 40%;
+	margin-right: 40%;
+    border-radius: 15%;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    column-gap: normal;
+
+}
+.form-control {
+    margin-top:25px;
+    height: 80px;
+}
+.teclas{
+width: 80px;
+height: 80px;
+background-color: rgb(85, 82, 82);
+border-radius: 50%;
+font-size: 50px;
+}
+.e{
+    width: 00px;
+height: 0px;
+background-color: #333;
+}
+.borr{
+    width: 120px;
+    height: 80px;
+    background-color: rgb(129, 49, 49);
+    border-radius: 50%;
+    font-size: 50px;
+    }
+.teclas1{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(49, 67, 107);
+    border-radius: 50%;
+    font-size: 50px;
+    }
+    .signos{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(49, 67, 107);
+        border-radius: 50%;
+        font-size: 50px;
+        }
+        .resultado{
+            width: 80px;
+            height: 80px;
+            background-color: rgb(49, 67, 107);
+            border-radius: 50%;
+            font-size: 50px;
+            }
